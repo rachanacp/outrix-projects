@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Rachana Paramesh</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Rachana 👋</h2>
+        <p>I am an aspiring full stack web developer with a strong foundation in Java, HTML, and CSS, and I am currently expanding my skills to become proficient in modern full stack development. Originally from Tumkur, I am passionate about building dynamic and user-friendly web applications that combine clean design with efficient functionality. I enjoy learning new technologies and applying them to solve real-world problems. At this stage of my journey, I am actively seeking an internship opportunity where I can contribute my skills, gain hands-on experience, and grow as a developer in a collaborative environment.
+</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="C:\Users\HP\OneDrive\Documents\Desktop\Untitled Folder\rachana portfolio.jpg" alt="Rachana headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+      I have developed a solid foundation in Java, HTML, CSS, and JavaScript, which allows me to design and build responsive, user-friendly web pages and interactive applications. With Java, I can implement logical problem-solving and backend functionalities, while HTML, CSS, and JavaScript enable me to create engaging front-end designs with smooth user experiences. Additionally, I have basic knowledge of Python, which helps me explore automation, scripting, and problem-solving approaches. I am continuously learning and improving my skills to become a well-rounded full stack developer and am eager to apply my knowledge in real-world projects and internships.
+
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="C:\Users\HP\OneDrive\Documents\Desktop\Untitled Folder\rachana portfolio.jpg">
+          <p>Rachana Paramesh</p>
+          <p>Aspiring full stack developer</p>
+        </div>
+
+        <div class="text">
+        I was born and brought up in Tumkur, where I completed my early education and built the foundation for my academic journey. I did my schooling at Anikethana Vidya Mandira, where I developed a strong interest in learning and discipline. Later, I pursued my Pre-University education at Vidyaniketan PU College, which further shaped my academic and personal growth. Currently, I am pursuing my engineering degree at Shridevi Institute of Engineering and Technology, focusing on building skills in software development and technology. My journey so far reflects dedication, continuous learning, and a drive to achieve excellence in my chosen field.
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Feel free to reach out to me for opportunities, collaborations, or any queries. I am always open to connecting with like-minded people and learning from new experiences. You can contact me directly via my name, email, or phone number, and I’ll respond at the earliest.
+
+
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
